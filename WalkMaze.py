@@ -9,7 +9,7 @@ Q_table = pd.read_csv('Q_table.csv',index_col = 0)
 
 
 Path_List = []
-print("输入终点的坐标x, y, 例如: 1, 1")
+print("输入终点的坐标x, y, 例如: 1, 1; 25, 33")
 while True:
     try:
         State = eval(input())
